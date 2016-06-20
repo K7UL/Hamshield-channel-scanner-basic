@@ -88,13 +88,9 @@ void nextmemory() {
   {
     c = 0;
   }
-  else
-  {
-//    Serial.println("Freq: ");
-//    Serial.println(mems[c]);
-    radio.frequency(mems[c]);
-  }
-  return;
+                    //    Serial.println("Freq: ");
+                    //    Serial.println(mems[c]);
+   radio.frequency(mems[c]);
 }
 
 
